@@ -1,0 +1,37 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+/* Header */
+h1 {
+	background-color: lightgreen;
+	padding: 20px;
+}
+
+
+/*Notes*/
+nav {
+	background: grey;
+	display: block;
+}
+
+
+/*Notes*/
+section {
+	background: darkgrey;
+}
+
+
+aside {
+	background: lightblue;
+}
+
+footer {
+	background: lightblue;
+}
