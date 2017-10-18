@@ -3,35 +3,88 @@
  **/
 
 * {
-  box-sizing: border-box;
   text-align: center;
+  font-weight: normal;
+  color:grey;
+
 }
 
 
+body{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;	
+	background: #777;
+	font-size: 18px;
+  	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
 /* Header */
-h1 {
-	background-color: lightgreen;
-	padding: 20px;
+header {
+	background-color: #ebebeb;
+	padding: 25px;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
 
 /*Notes*/
 nav {
-	background: grey;
-	display: block;
+	background-color: #ebebeb;
+	padding: 25px;
+	margin-bottom: 20px;
 }
+
 
 
 /*Notes*/
-section {
-	background: darkgrey;
+#Left {
+	color: grey;
+	background-color: #ebebeb;	
+	width: 495px;
+	height: 250px;
+	float: left;
+	margin-bottom: 20px;
+	padding: 20px;
+
+}
+
+#Right {
+	background-color: #ebebeb;	
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 365px;
+	height: 250px;
+	padding: 20px;
+}
+
+#article {
+	color: white;
+	height: 170px;
+	margin: 35px 0px 0px 0px;
+	background-color: #777;
+	padding: 15px;
+}
+
+h3{
+	padding: 15px;
+	background-color: #ebebeb;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+p{	
+	margin-top: 10px;
+	padding: 15px;
+	background-color: #ebebeb;
 }
 
 
-aside {
-	background: lightblue;
-}
 
-footer {
-	background: lightblue;
+footer{
+	clear: both;
+	background-color: #ebebeb;
+	padding: 25px;
 }
